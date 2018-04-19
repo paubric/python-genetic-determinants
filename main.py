@@ -57,16 +57,14 @@ for epoch in range(0, epochs):
 
     # If initial epoch, generate random population
     if (epoch == 0):
-        population = 1 * np.random.randn(population_size, n)
+        population = np.random.randn(population_size, n)
 
     # Calculate individual fitness
     for i in range(0, population_size):
-        #print('Individual: ', population[i])
         scaled = np.multiply(A, population[i])
         sum = 0
         for line in scaled:
             sum += abs(np.sum(line))
-        #print('Fitness: ', sum, '\n')
         fit[i] = sum
 
     # Sort individuals by fitness
