@@ -1,5 +1,5 @@
 # Genetic Determinants
-Genetic algorithm to find scalar coefficients for vectors in a matrix, in order to identify the linear combination which describes the possible null determinant.
+This is a genetic algorithm which find scalar coefficients for vectors in a matrix, in order to identify the linear combination which describes the determinant as null.
 
 ![Graph](https://github.com/paubric/python-genetic-determinants/blob/master/Figure.png)
 
@@ -14,5 +14,5 @@ A linear combination is an expression constructed from a set of terms by multipl
 
 ![eq2](https://github.com/paubric/python-genetic-determinants/blob/master/eq1.gif)
 
-The determinant is a value that can be computed from the elements of a square matrix. It can be viewed as the scaling factor of the transformation described by the matrix.
+The determinant is a value that can be computed from the elements of a square matrix. It can be viewed as the scaling factor of the transformation described by the matrix. The algorithm can determine the c coefficients.
 
