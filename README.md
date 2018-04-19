@@ -5,15 +5,13 @@ This is a genetic algorithm which can be used to find scalar coefficients for ve
 
 ## Background
 
-In mathematics, a matrix is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns.
-
-![eq1](https://github.com/paubric/python-genetic-determinants/blob/master/eq2.gif)
-
-A linear combination is an expression constructed from a set of terms by multiplying each term by a constant and adding the results (e.g. a linear combination of x and y would be any expression of the form ax + by, where a and b are constants). The concept of linear combinations is central to linear algebra and related fields of mathematics. 
+In mathematics, a matrix is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. A linear combination is an expression constructed from a set of terms by multiplying each term by a constant and adding the results (e.g. a linear combination of x and y would be any expression of the form ax + by, where a and b are constants). The concept of linear combinations is central to linear algebra and related fields of mathematics. 
 
 ![eq2](https://github.com/paubric/python-genetic-determinants/blob/master/eq1.gif)
 
 The determinant is a value that can be computed from the elements of a square matrix. It can be viewed as the scaling factor of the transformation described by the matrix. The algorithm can determine the _c_ coefficients from the upper figure.
+
+![eq1](https://github.com/paubric/python-genetic-determinants/blob/master/eq2.gif)
 
 ## Method
 
@@ -56,4 +54,5 @@ Finally, we pick the fittest individual from the fittest generation as a result.
 
 - Normalize/denormalize matrix values for faster convergence
 - Try mean squared error as fitness function
+- Make it work for any survival_rate
 
